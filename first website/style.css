@@ -1,0 +1,29 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+html,
+body {
+  background-color: azure;
+  width: 100%;
+  height: 100%;
+}
+
+h1 {
+  margin: 0%;
+  color: rgb(89, 89, 215);
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: bisque;
+}
+h2 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: rgb(94, 94, 210);
+}
+h6 {
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: cadetblue;
+}
