@@ -1,0 +1,83 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 300px;
+    width: 230px;
+    border: 1px solid salmon;
+    border-radius: 20px;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    overflow: hidden;
+}
+
+#card1{
+    transform: translate(-50%, -50%);
+    background-color: blueviolet;
+    z-index: 4;
+}
+#card2{
+    transform: translate(-50%, -50%) rotate(-7deg);
+    background-color: aqua;
+    z-index: 3;
+    -webkit-transform: translate(-50%, -50%) rotate(-7deg);
+    -moz-transform: translate(-50%, -50%) rotate(-7deg);
+    -ms-transform: translate(-50%, -50%) rotate(-7deg);
+    -o-transform: translate(-50%, -50%) rotate(-7deg);
+}
+#card3{
+    transform: translate(-50%, -50%) rotate(-14deg);
+    background-color: red;
+    z-index: 2;
+    -webkit-transform: translate(-50%, -50%) rotate(-14deg);
+    -moz-transform: translate(-50%, -50%) rotate(-14deg);
+    -ms-transform: translate(-50%, -50%) rotate(-14deg);
+    -o-transform: translate(-50%, -50%) rotate(-14deg);
+}
+#card4{
+    transform: translate(-50%, -50%) rotate(-24deg);
+    background-color: green;
+    z-index: 1;
+    -webkit-transform: translate(-50%, -50%) rotate(-24deg);
+    -moz-transform: translate(-50%, -50%) rotate(-24deg);
+    -ms-transform: translate(-50%, -50%) rotate(-24deg);
+    -o-transform: translate(-50%, -50%) rotate(-24deg);
+}
+#card2:hover{
+    z-index: 10;
+}
+#card3:hover{
+    z-index: 10;
+}
+#card4:hover{
+    z-index: 10;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
