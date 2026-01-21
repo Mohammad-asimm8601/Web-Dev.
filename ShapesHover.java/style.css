@@ -20,7 +20,7 @@ h1{
     font-weight: normal;
 }
 .shape{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', Calibri, 'Trebuchet MS', sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
